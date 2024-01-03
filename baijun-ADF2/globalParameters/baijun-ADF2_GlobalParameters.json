@@ -1,1 +1,6 @@
-{}
+{
+	"testpara1": {
+		"type": "string",
+		"value": "abc"
+	}
+}
