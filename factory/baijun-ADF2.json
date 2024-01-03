@@ -5,6 +5,10 @@
 			"testpara1": {
 				"type": "string",
 				"value": "abc"
+			},
+			"testpara2": {
+				"type": "string",
+				"value": "def"
 			}
 		}
 	},
