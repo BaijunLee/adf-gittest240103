@@ -6,5 +6,9 @@
 	"testpara2": {
 		"type": "string",
 		"value": "def"
+	},
+	"tesepara3": {
+		"type": "string",
+		"value": "efg"
 	}
 }
