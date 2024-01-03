@@ -9,6 +9,10 @@
 			"testpara2": {
 				"type": "string",
 				"value": "def"
+			},
+			"teseparar3": {
+				"type": "string",
+				"value": "efg"
 			}
 		}
 	},
