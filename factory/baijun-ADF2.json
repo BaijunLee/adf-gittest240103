@@ -1,5 +1,13 @@
 {
 	"name": "baijun-ADF2",
+	"properties": {
+		"globalParameters": {
+			"testpara1": {
+				"type": "string",
+				"value": "abc"
+			}
+		}
+	},
 	"location": "chinaeast2",
 	"identity": {
 		"type": "SystemAssigned,UserAssigned",
