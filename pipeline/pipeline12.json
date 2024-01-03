@@ -1,0 +1,23 @@
+{
+	"name": "pipeline12",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pipeline10_FromADLSGen2toSQL",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-11-08T07:12:51Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

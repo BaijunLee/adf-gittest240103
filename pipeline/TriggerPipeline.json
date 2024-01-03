@@ -1,0 +1,23 @@
+{
+	"name": "TriggerPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "databrickstosql",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-03-14T03:44:18Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
